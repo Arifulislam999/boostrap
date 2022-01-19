@@ -1,0 +1,70 @@
+.container-fluid {
+    margin-left: -10px;
+    background-color: #2b65ec;
+    padding: 10px;
+}
+
+* {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header {
+    background-color: #737ca1;
+    height: 7vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo-left {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.logo-left h1 {
+    color: #b5eaaa;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    padding: 7px 10px;
+}
+
+ul li a {
+    color: #fbe7a1;
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: #123456;
+    color: #e56717;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-body {
+    background: #f67280;
+    color: #f9db24;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+}
+
+body {
+    background-color: #addfff;
+}
+
+.card {
+    margin-right: -20px;
+}
